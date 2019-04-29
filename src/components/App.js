@@ -5,12 +5,20 @@ import {
 } from 'react-router-dom';
 
 // App Components
-import Home from './Home.js'
+import Header from './Header';
+import Home from './Home';
+import About from './About';
+import Teachers from './Teachers';
+import Courses from './Courses';
 
 const App = () => (
   <BrowserRouter>
     <div className="container">
-      <Route path="/" component={Home} />
+      <Header />
+      <Route exact path="/" component={Home} />
+      <Route path="/about" component={About} />
+      <Route path="/teachers" component={Teachers} />
+      <Route path="/courses" component={Courses} />
     </div>
   </BrowserRouter>
 );
