@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://Steven-matos.github.io/React-single-page-app",
   "devDependencies": {
-    "react-scripts": "^3.0.1"
+    "react-scripts": "^5.0.1"
   },
   "dependencies": {
     "gh-pages": "^2.0.1",
